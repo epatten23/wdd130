@@ -1,0 +1,36 @@
+body {
+    background-color: hotpink;
+}
+# {
+    border: 1px solid red;
+}
+.centered {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+}
+.quote {
+    color: white;
+}
+img {
+    width: 30%;
+}
+.image{
+    text-align:center;
+}
+.quote2 {
+    color: white;
+    font-size: 2em;
+}
+.list {
+    padding: 10 auto;
+    margin: 0 auto;
+    text-align: center;
+}
