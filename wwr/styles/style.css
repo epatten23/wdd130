@@ -1,35 +1,168 @@
-body {
-    background-color: white;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@450;900&family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+/* Background */
+#background {
+    height: 725px;
+    background-color: #5D382F;
 }
 
-header {
-    background-color: #E7CEBE;
+/* Body */
+body {
+    background-color: white;
+    font-family: 'Arima', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+/* Book and Join Button Hover */
+.book:hover, .join:hover {
+    background-color: #B8C1CC;
+}
+
+/* Book and Join Buttons */
+.book, .join {
+    background-color: #9CA8B6;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+/* Button Box */
+.button-box {
+    text-align: center;
+}
+
+/* Content */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-.logo {
-    width: 80px;
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
-.icon {
-    width: 80px;
+/* Footer */
+footer {
+    background-color: #9CA8B6;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
+/* Footer Link Hover */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Links */
+footer a {
+    background-color: #9CA8B6;
+    color: black;
+    text-decoration: none;
+}
+
+/* Footer Paragraphs */
+footer p {
+    font-size: 1em;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+/* Header */
+header {
+    background-color: #E7CEBE;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+}
+
+h2{
+    margin: 0;
+}
+
+/* Hero Image */
 #hero-img {
     width: 100%;
 }
 
-nav a{
+/* Hero Message Headings */
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+/* Home Title */
+.home-title {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* Icon */
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+/* Main Section */
+main section {
+    text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+/* Message Paragraphs */
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+/* Message Section */
+.msg {
+    background-color: #6B705C;
+    color: #C5C9CE;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+/* Navigation Link Hover */
+nav a:hover {
+    background-color: #DDBEA9;
+}
+
+/* Navigation Links */
+nav a {
     color: white;
     text-align: center;
     padding: 1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
+    padding: 35px;
 }
 
+/* Navigation */
 nav {
     background-color: #C7987F;
     list-style-type: none;
@@ -37,57 +170,6 @@ nav {
     text-align: center;
 }
 
-nav a:hover{
-    background-color: #DDBEA9;
-}
-
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-
-.book, .join {
-    background-color: #9CA8B6;
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.book:hover, .join:hover {
-    background-color: #B8C1CC;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.msg {
-    background-color: #6B705C;
-    color: #C5C9CE;
-}
-
-main section{
-    text-align: center;
-}
-
-#background { 
-    height: 725px;
-    background-color: azure;
-}
-
-footer{
-    background-color: #9CA8B6;
-}
-
-footer a{
-    background-color: #9CA8B6;
-    color: black;
-    text-decoration: none;
-}
-
-footer p{
-    font-size: 1em;
-}
-
-footer p a:hover {
-    text-decoration: underline;
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }

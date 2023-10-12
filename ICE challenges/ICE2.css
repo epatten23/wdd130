@@ -1,0 +1,23 @@
+#mainimg {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.multpic {
+    display: inline-block;
+    background-color: gray;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.bigpic {
+    margin: 0;
+}
+.circle {
+    width: 30%;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
