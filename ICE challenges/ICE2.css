@@ -4,20 +4,30 @@
     border: 0;
     padding: 0;
 }
-.multpic {
-    display: inline-block;
-    background-color: gray;
-    text-align: center;
-    margin: 0;
+
+.bigpic {
     border: 0;
     padding: 0;
-}
-.bigpic {
     margin: 0;
+    top: 100;
+    position: relative;
+}
+
+
+.multpic {
+    background-color: rgb(76, 76, 76);
+    text-align: center;
+    margin: 0;
+    border: 0px;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    top: -10px;
 }
 .circle {
-    width: 30%;
+    width: 20%;
     border-radius: 50%;
-    padding: 0;
-    margin: 0;
+    border: 8px solid rgb(9, 9, 9);
+    padding: 0px;
+    margin: 30px;
 }
