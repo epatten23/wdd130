@@ -285,7 +285,7 @@ nav a {
     grid-row: 3/4;
     grid-column: 1/7;
     text-align: center;
-    padding: auto;
+    padding: 0px;
     margin: 15px;
     color: #6B705C;
 }
@@ -311,7 +311,7 @@ nav a {
     grid-row: 5/6;
     grid-column: 1/7;
     text-align: center;
-    padding: auto;
+    padding: 0px;
     margin: 15px;
     color: #6B705C;
 }
@@ -337,7 +337,7 @@ nav a {
     grid-row: 7/8;
     grid-column: 1/7;
     text-align: center;
-    padding: auto;
+    padding: 0px;
     margin: auto;
     color: #6B705C;
 }
@@ -373,6 +373,7 @@ nav a {
     grid-row: 2/3;
 }
 
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -394,9 +395,11 @@ nav a {
     #hero-msg h4 {
         display: none;
     }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
