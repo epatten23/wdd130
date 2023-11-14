@@ -72,7 +72,7 @@ body {
 footer {
     background-color: #9CA8B6;
     padding: 10px 10px;
-    margin-top: 40px auto;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -378,7 +378,7 @@ nav a {
 form {
     /* Center the form on the page */
     margin: 20px auto;
-    margin-bottom: 0px auto;
+    margin-bottom: 0px;
     width: 500px;
     /* Form outline */
     padding: 1em;
