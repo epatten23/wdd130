@@ -42,7 +42,6 @@ footer p a:hover {
 }
 
 footer a {
-    background-color: none;
     color: white;
     text-decoration: none;
 }
@@ -67,13 +66,13 @@ footer .social img{
     width: 100%;
 }
 
-.jerseydate{
+#jerseys h3{
     font-family: 'Kelly Slab', Helvetica, sans-serif;
     text-align: center;
     font-size: 30px;
 }
 
-.jerseyimg {
+#jerseys img {
     margin: auto;
     height: 100%;
 }

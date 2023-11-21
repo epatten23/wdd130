@@ -1,0 +1,40 @@
+section {
+    width: 50%;
+    border: 1px solid;
+}
+  
+.block1 {
+    display: block;
+    width: 500px;
+    margin-right: auto;
+}
+
+.block2 {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+.block3 {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+}
+
+.block4 {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+.fst {
+    text-align: left;
+}
+
+.sst {
+    text-align: center;
+}
+
+.tst {
+    text-align: right;
+}
