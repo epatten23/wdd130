@@ -4,13 +4,19 @@
 
 /*CSS FOR ALL PAGES*/
 /* NAV CSS */
+
+body{
+    margin: 0;
+    padding: 0px;
+}
+
 #navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #5C3537;
     overflow: auto;
-
-    margin-top: -9px;
+    border: black 1px solid;
+    margin-top: -10px;   
 }
 
 #navbar a:hover {
@@ -19,11 +25,14 @@
 
 #navbar a {
     display: inline-block;
+    font-family: 'Kelly Slab', Helvetica, sans-serif;
     text-align: center;
     padding: 12px;
+    padding-top: 20px;
     color: white;
     text-decoration: none;
     font-size: 17px;
+    border-bottom: black 1px solid;
 }
 
 /* FOOTER CSS */
@@ -64,12 +73,15 @@ footer .social img{
 
 #banner_img{
     width: 100%;
+    margin-bottom: -35px;
 }
 
 #jerseys h3{
     font-family: 'Kelly Slab', Helvetica, sans-serif;
     text-align: center;
     font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px #5C3537;
 }
 
 #jerseys img {
@@ -77,13 +89,29 @@ footer .social img{
     height: 100%;
 }
 
-#through, #intro{
-    font-size: 35px;
+#through, #intro, #newsintro{
     text-align: center;
-    font-family: 'Graduate', sans-serif;;
+    font-family: 'Graduate', sans-serif;
 }
-#intro{
+
+#intro, #rostertit, #newsintro {
+    background-color: #5C3537;
+    padding: 50px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    z-index: -1;
+}
+
+#through{
+    background-color: #0a1f3c;
+    color: white;
+    padding: 20px;
+}
+
+#intro, #rostertit, #newsintro{
     font-size: 45px;
+    color: #ffffff;
+    font-family: 'Graduate', sans-serif;
 }
 
 /*Format all the jerseys in a grid */
@@ -196,6 +224,8 @@ footer .social img{
     height: 340px;
 }
 
+
+
 .on img{
     width: 90%;
     margin-top: auto;
@@ -215,6 +245,8 @@ footer .social img{
     grid-column: 2/3;
     grid-row: 2/3;
 }
+
+
 
 .off {
     display: grid;
@@ -254,16 +286,13 @@ footer .social img{
     margin: auto;
 }
 
+
 b{
     font-size: 22px;
 }
 
 b .name{
     font-size: 27px;
-}
-
-.hide {
-    display: none;
 }
 
 #jimg{
@@ -283,9 +312,19 @@ b .name{
     font-size: 45px;
 }
 
+#arrow{
+    width: 45px;
+    display: flex;
+    margin-left: auto;
+    padding-left: 430px;
+}
+
 
 /* NEWS CSS */
 
 .twitter-timeline {
     height: 800px;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
 }
