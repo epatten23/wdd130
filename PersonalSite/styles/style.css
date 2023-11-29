@@ -16,7 +16,7 @@ body{
     background-color: #5C3537;
     overflow: auto;
     border: black 1px solid;
-    margin-top: -10px;   
+    margin-top: -5px;   
 }
 
 #navbar a:hover {
@@ -27,11 +27,11 @@ body{
     display: inline-block;
     font-family: 'Kelly Slab', Helvetica, sans-serif;
     text-align: center;
-    padding: 12px;
+    padding: 15px;
     padding-top: 20px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     border-bottom: black 1px solid;
 }
 
@@ -99,8 +99,25 @@ footer .social img{
     padding: 50px;
     margin-top: -5px;
     margin-bottom: -5px;
+    padding-bottom: 10px;
     z-index: -1;
 }
+
+#intro, #newsintro {
+    padding: 50px;
+}
+
+
+#infos {
+    background-color: #5C3537;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    z-index: -1;
+    font-family: 'Kelly Slab', Helvetica, sans-serif;
+}
+
 
 #through{
     background-color: #0a1f3c;
@@ -312,19 +329,74 @@ b .name{
     font-size: 45px;
 }
 
-#arrow{
-    width: 45px;
-    display: flex;
-    margin-left: auto;
-    padding-left: 430px;
+/* NEWS CSS */
+
+#topstory {
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 18px;
+    background-color: #0D213F;
+    font-family: 'Kelly Slab', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
+#allstories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#story1 {
+    grid-column: 1/2;
+    margin: auto;
+    width: 80%;
+}
 
-/* NEWS CSS */
+#story2 {
+    grid-column: 1/2;
+    margin: auto;
+    width: 80%;
+}
+
+#story3 {
+    grid-column: 1/2;
+    margin: auto;
+    width: 80%;
+}
+
+#allstories img {
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.titles{
+    text-align: center;
+    margin: auto;
+    margin-top: -5px;
+    text-decoration: none;
+    background-color: #0D213F;
+    color: white;
+    padding: 20px;   
+    font-family: 'Kelly Slab', Helvetica, sans-serif; 
+}
+#allstories a{
+    text-decoration: none;
+}
+
+#social, #through {
+    background-color: #0D213F;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Kelly Slab', Helvetica, sans-serif; 
+}
 
 .twitter-timeline {
     height: 800px;
     width: 80%;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 30px;
 }
+
