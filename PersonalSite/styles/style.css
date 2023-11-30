@@ -247,6 +247,7 @@ footer .social img{
     width: 90%;
     margin-top: auto;
     margin-right: auto;
+    padding-top: 20px;
     grid-column: 1/3;
     grid-row: 1/3;
     z-index: -1;
@@ -280,7 +281,7 @@ footer .social img{
     font-family: 'Kelly Slab', Helvetica, sans-serif;
     text-align: center;
     margin: auto;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .off{
@@ -290,12 +291,12 @@ footer .social img{
 .season{
     grid-row: 1/2;
     margin: auto;
-    padding-top: 25px;
 }
 
 .career {
     grid-row: 2/3;
     margin: auto;
+    margin-bottom: auto;
 }
 
 .new {
@@ -305,7 +306,7 @@ footer .social img{
 
 
 b{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 b .name{
