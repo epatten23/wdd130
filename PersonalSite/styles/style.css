@@ -64,6 +64,10 @@ footer .social img{
     padding-top: 4px;
 }
 
+#logos {
+    display: inline;
+    width: 5%;
+}
 
 
 /* HOME PAGE CSS */
